@@ -1,0 +1,97 @@
+/* Basic Resets */
+
+body{
+    margin: 0rem 2rem;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{ /*to remove underline in achor */
+    text-decoration: none; 
+}
+li{
+    list-style: none;
+}
+
+header h1{
+    margin-left: 2rem;
+} 
+nav{
+    margin-right: 1rem;
+    height: 90%;
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: red;
+}
+a{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20rem;
+    
+    
+}
+ul>li{
+    font-size: 1.5rem;
+    width: 30%;
+}
+
+.parent{
+    margin-top: 2rem;
+    display: flex;
+    /* text inside the parent including images will be centered */
+    text-align: center;
+    justify-content: space-evenly; 
+}
+.child{
+    width: 30%;
+}
+
+.main_img{
+    width: 100%;
+    height: auto;
+}
+
+.footer_parent{
+    /* flexbox - vertical center */
+    height: 5rem;
+    /* text-align: center; */
+    background-color: black;
+
+    /* it is use to perfectly center a div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.footer_content{
+    color: white;
+    /* boldness */
+    font-weight: 400;
+    font-size: 2rem;
+
+    text-transform: uppercase;
+}
+
